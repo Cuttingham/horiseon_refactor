@@ -20,10 +20,6 @@ header h1 { /* Changed notation from identifying a class to identifying a semant
     font-size: 48px;
 }
 
-/* header h1  {/ With removal of Seo this whole line became redundant
-    color: #d9dcd6;
-} */
-
 header nav {/* Changed notation from identifying a class to identifying a semantic element, changed div to nav*/
     padding-top: 15px;
     margin-right: 20px;
