@@ -76,7 +76,7 @@ main {
 }
 
 
-aside{
+aside{ /* Formated benefits and h3 with this, able to remove previous code */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,119 +95,31 @@ h3{
     color:white
 }
 
-/* .benefit-lead {   all of this text is redundant, replaced by the upper two lines.
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-aside img {
+aside img { /*consolidated  img formating into single function */
     display: block;
     margin: 10px auto;
-    max-width: 150px;     /*consolidated below img formating into single function */
-}
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px;     
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-
-.search-engine-optimization {
+/* consolidated main text into one section, tried using subcase "services" but it was not working. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main img{
+main img{             /*consolidates three sections into one*/
     max-height:200px;
 }
-/* .search-engine-optimization img {  above line of code consolidates these into one header.
-    max-height: 200px;   
-}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-main h2 {
+main h2 {              /*consolidates the three sections into one*/
     margin-bottom: 20px;
     font-size: 36px; 
 }
-/* .search-engine-optimization h2 { above code consolidates these lines of code
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 footer {   /* changed to identify a semantic element */
     padding: 30px;
