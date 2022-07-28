@@ -43,4 +43,5 @@ Link to Website: https://cuttingham.github.io/horiseon_refactor/
 ## USAGE
 
 Once deployed the application can be viewed in a traditional desktop web browser. It it not yet responsive.
-![screenshot of the website] (https://github.com/Cuttingham/horiseon_refactor/blob/main/assets/images/website_demo.png)
+
+![website demo] (/assets/images/website_demo.png)
