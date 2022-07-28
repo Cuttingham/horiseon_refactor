@@ -75,6 +75,7 @@ main {
     margin-left: 20px;
 }
 
+
 aside{
     margin-right: 20px;
     padding: 20px;
@@ -146,6 +147,7 @@ aside img {
     max-width: 150px;
 } */
 
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -173,8 +175,11 @@ aside img {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+main img{
+    max-height:200px;
+}
+/* .search-engine-optimization img {  above line of code consolidates these into one header.
+    max-height: 200px;   
 }
 
 .online-reputation-management img {
@@ -183,9 +188,13 @@ aside img {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+/* .search-engine-optimization h2 { above code consolidates these lines of code
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -198,7 +207,7 @@ aside img {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 footer {   /* changed to identify a semantic element */
     padding: 30px;
